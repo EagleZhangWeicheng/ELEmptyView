@@ -123,6 +123,7 @@
             [self.button setTitleColor: [UIColor colorWithRed:51.0/255 green:51.0/255 blue:51.0/255 alpha:1] forState:UIControlStateNormal];
             self.button.layer.borderWidth = 0.5;
             self.button.layer.borderColor = [UIColor colorWithRed:150.0/255 green:150.0/255 blue:150.0/255 alpha:1].CGColor;
+            self.button.layer.cornerRadius = 5;
             self.button.titleLabel.font = [UIFont systemFontOfSize:15];
             [self.button setTitle:buttonTitleStr forState:UIControlStateNormal];
             [self addSubview:self.button];
