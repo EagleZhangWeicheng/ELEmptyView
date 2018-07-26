@@ -19,7 +19,7 @@
 		14C3992F21097AAA00F8EB6A /* UIView+ELEmptyViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C3992D21097AAA00F8EB6A /* UIView+ELEmptyViewFrame.m */; };
 		14C399322109A3F700F8EB6A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C399312109A3F700F8EB6A /* TableViewController.m */; };
 		14C399342109AD3000F8EB6A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 14C399332109AD3000F8EB6A /* README.md */; };
-		14C399362109AD6400F8EB6A /* ELEmptyView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14C399352109AD6400F8EB6A /* ELEmptyView.podspec */; };
+		14C399362109AD6400F8EB6A /* EagleELEmptyView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 14C399352109AD6400F8EB6A /* EagleELEmptyView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,7 @@
 		14C399302109A3F700F8EB6A /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		14C399312109A3F700F8EB6A /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		14C399332109AD3000F8EB6A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		14C399352109AD6400F8EB6A /* ELEmptyView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ELEmptyView.podspec; sourceTree = SOURCE_ROOT; };
+		14C399352109AD6400F8EB6A /* EagleELEmptyView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EagleELEmptyView.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +89,7 @@
 				148A778720FC6D7B001CB206 /* Info.plist */,
 				148A778820FC6D7B001CB206 /* main.m */,
 				14C399332109AD3000F8EB6A /* README.md */,
-				14C399352109AD6400F8EB6A /* ELEmptyView.podspec */,
+				14C399352109AD6400F8EB6A /* EagleELEmptyView.podspec */,
 			);
 			path = ELEmptyView;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 				148A778320FC6D7B001CB206 /* Assets.xcassets in Resources */,
 				14C399342109AD3000F8EB6A /* README.md in Resources */,
 				148A778120FC6D77001CB206 /* Main.storyboard in Resources */,
-				14C399362109AD6400F8EB6A /* ELEmptyView.podspec in Resources */,
+				14C399362109AD6400F8EB6A /* EagleELEmptyView.podspec in Resources */,
 				14C399262109690800F8EB6A /* ELEmptySource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

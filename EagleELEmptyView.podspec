@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "ELEmptyView"
+  s.name         = "EagleELEmptyView"
   s.version      = "0.0.1"
   s.summary      = "空白view"
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+#s.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "ELEmptyView/ELEmptyView", "ELEmptyView/ELEmptyView/**/*.{h,m}"
-  s.exclude_files = "ELEmptyView/ELEmptyView"
+  s.exclude_files = "ELEmptyView/ELEmptyView/ELEmptySource.bundle"
 
   # s.public_header_files = "Classes/**/*.h"
 
