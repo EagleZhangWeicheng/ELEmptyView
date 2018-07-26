@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:EagleEmptyView.xcodeproj">
+      location = "self:/Users/a10.11.5/Desktop/demo/EagleEmptyView/ELEmptyView.xcodeproj">
    </FileRef>
 </Workspace>

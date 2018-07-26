@@ -13,10 +13,15 @@
 		148A778320FC6D7B001CB206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148A778220FC6D7B001CB206 /* Assets.xcassets */; };
 		148A778620FC6D7B001CB206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 148A778420FC6D7B001CB206 /* LaunchScreen.storyboard */; };
 		148A778920FC6D7B001CB206 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 148A778820FC6D7B001CB206 /* main.m */; };
+		148A779220FC6D94001CB206 /* ELEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 148A779120FC6D94001CB206 /* ELEmptyView.m */; };
+		14C399262109690800F8EB6A /* ELEmptySource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14C399252109690800F8EB6A /* ELEmptySource.bundle */; };
+		14C39929210970DB00F8EB6A /* UIView+ELEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C39928210970DB00F8EB6A /* UIView+ELEmptyView.m */; };
+		14C3992F21097AAA00F8EB6A /* UIView+ELEmptyViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C3992D21097AAA00F8EB6A /* UIView+ELEmptyViewFrame.m */; };
+		14C399322109A3F700F8EB6A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C399312109A3F700F8EB6A /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		148A777620FC6D77001CB206 /* EagleEmptyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EagleEmptyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		148A777620FC6D77001CB206 /* ELEmptyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELEmptyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		148A777920FC6D77001CB206 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		148A777A20FC6D77001CB206 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		148A777C20FC6D77001CB206 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -26,6 +31,15 @@
 		148A778520FC6D7B001CB206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		148A778720FC6D7B001CB206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		148A778820FC6D7B001CB206 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		148A779020FC6D94001CB206 /* ELEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ELEmptyView.h; sourceTree = "<group>"; };
+		148A779120FC6D94001CB206 /* ELEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ELEmptyView.m; sourceTree = "<group>"; };
+		14C399252109690800F8EB6A /* ELEmptySource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ELEmptySource.bundle; sourceTree = "<group>"; };
+		14C39927210970DB00F8EB6A /* UIView+ELEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ELEmptyView.h"; sourceTree = "<group>"; };
+		14C39928210970DB00F8EB6A /* UIView+ELEmptyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELEmptyView.m"; sourceTree = "<group>"; };
+		14C3992D21097AAA00F8EB6A /* UIView+ELEmptyViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ELEmptyViewFrame.m"; sourceTree = "<group>"; };
+		14C3992E21097AAA00F8EB6A /* UIView+ELEmptyViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ELEmptyViewFrame.h"; sourceTree = "<group>"; };
+		14C399302109A3F700F8EB6A /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		14C399312109A3F700F8EB6A /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,7 +56,7 @@
 		148A776D20FC6D77001CB206 = {
 			isa = PBXGroup;
 			children = (
-				148A777820FC6D77001CB206 /* EagleEmptyView */,
+				148A777820FC6D77001CB206 /* ELEmptyView */,
 				148A777720FC6D77001CB206 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,16 +64,19 @@
 		148A777720FC6D77001CB206 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				148A777620FC6D77001CB206 /* EagleEmptyView.app */,
+				148A777620FC6D77001CB206 /* ELEmptyView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		148A777820FC6D77001CB206 /* EagleEmptyView */ = {
+		148A777820FC6D77001CB206 /* ELEmptyView */ = {
 			isa = PBXGroup;
 			children = (
+				148A778F20FC6D89001CB206 /* ELEmptyView */,
 				148A777920FC6D77001CB206 /* AppDelegate.h */,
 				148A777A20FC6D77001CB206 /* AppDelegate.m */,
+				14C399302109A3F700F8EB6A /* TableViewController.h */,
+				14C399312109A3F700F8EB6A /* TableViewController.m */,
 				148A777C20FC6D77001CB206 /* ViewController.h */,
 				148A777D20FC6D77001CB206 /* ViewController.m */,
 				148A777F20FC6D77001CB206 /* Main.storyboard */,
@@ -68,15 +85,29 @@
 				148A778720FC6D7B001CB206 /* Info.plist */,
 				148A778820FC6D7B001CB206 /* main.m */,
 			);
-			path = EagleEmptyView;
+			path = ELEmptyView;
+			sourceTree = "<group>";
+		};
+		148A778F20FC6D89001CB206 /* ELEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				14C3992E21097AAA00F8EB6A /* UIView+ELEmptyViewFrame.h */,
+				14C3992D21097AAA00F8EB6A /* UIView+ELEmptyViewFrame.m */,
+				14C39927210970DB00F8EB6A /* UIView+ELEmptyView.h */,
+				14C39928210970DB00F8EB6A /* UIView+ELEmptyView.m */,
+				148A779020FC6D94001CB206 /* ELEmptyView.h */,
+				148A779120FC6D94001CB206 /* ELEmptyView.m */,
+				14C399252109690800F8EB6A /* ELEmptySource.bundle */,
+			);
+			path = ELEmptyView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		148A777520FC6D77001CB206 /* EagleEmptyView */ = {
+		148A777520FC6D77001CB206 /* ELEmptyView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 148A778C20FC6D7B001CB206 /* Build configuration list for PBXNativeTarget "EagleEmptyView" */;
+			buildConfigurationList = 148A778C20FC6D7B001CB206 /* Build configuration list for PBXNativeTarget "ELEmptyView" */;
 			buildPhases = (
 				148A777220FC6D77001CB206 /* Sources */,
 				148A777320FC6D77001CB206 /* Frameworks */,
@@ -86,9 +117,9 @@
 			);
 			dependencies = (
 			);
-			name = EagleEmptyView;
+			name = ELEmptyView;
 			productName = EagleEmptyView;
-			productReference = 148A777620FC6D77001CB206 /* EagleEmptyView.app */;
+			productReference = 148A777620FC6D77001CB206 /* ELEmptyView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 148A777120FC6D77001CB206 /* Build configuration list for PBXProject "EagleEmptyView" */;
+			buildConfigurationList = 148A777120FC6D77001CB206 /* Build configuration list for PBXProject "ELEmptyView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				148A777520FC6D77001CB206 /* EagleEmptyView */,
+				148A777520FC6D77001CB206 /* ELEmptyView */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +162,7 @@
 				148A778620FC6D7B001CB206 /* LaunchScreen.storyboard in Resources */,
 				148A778320FC6D7B001CB206 /* Assets.xcassets in Resources */,
 				148A778120FC6D77001CB206 /* Main.storyboard in Resources */,
+				14C399262109690800F8EB6A /* ELEmptySource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C39929210970DB00F8EB6A /* UIView+ELEmptyView.m in Sources */,
+				14C3992F21097AAA00F8EB6A /* UIView+ELEmptyViewFrame.m in Sources */,
 				148A777E20FC6D77001CB206 /* ViewController.m in Sources */,
 				148A778920FC6D7B001CB206 /* main.m in Sources */,
 				148A777B20FC6D77001CB206 /* AppDelegate.m in Sources */,
+				14C399322109A3F700F8EB6A /* TableViewController.m in Sources */,
+				148A779220FC6D94001CB206 /* ELEmptyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +256,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -272,7 +308,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -285,7 +321,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A558G4HSFJ;
-				INFOPLIST_FILE = EagleEmptyView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ELEmptyView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +339,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A558G4HSFJ;
-				INFOPLIST_FILE = EagleEmptyView/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ELEmptyView/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		148A777120FC6D77001CB206 /* Build configuration list for PBXProject "EagleEmptyView" */ = {
+		148A777120FC6D77001CB206 /* Build configuration list for PBXProject "ELEmptyView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				148A778A20FC6D7B001CB206 /* Debug */,
@@ -325,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		148A778C20FC6D7B001CB206 /* Build configuration list for PBXNativeTarget "EagleEmptyView" */ = {
+		148A778C20FC6D7B001CB206 /* Build configuration list for PBXNativeTarget "ELEmptyView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				148A778D20FC6D7B001CB206 /* Debug */,
