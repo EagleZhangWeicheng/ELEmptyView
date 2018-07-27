@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "ELEmptyView/ELEmptyView", "ELEmptyView/ELEmptyView/**/*.{h,m}"
-  s.exclude_files = "ELEmptyView/ELEmptyView/ELEmptySource.bundle"
+  #s.exclude_files = "ELEmptyView/ELEmptyView/ELEmptySource.bundle"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -103,6 +103,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
+  s.resource = "ELEmptyView/ELEmptyView/ELEmptySource.bundle"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
